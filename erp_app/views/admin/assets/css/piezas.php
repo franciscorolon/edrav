@@ -1,0 +1,1 @@
+<link media="screen" type="text/css" rel="stylesheet" href="<?=base_url('assets/plugins/bootstrap-select2/select2.css')?>">

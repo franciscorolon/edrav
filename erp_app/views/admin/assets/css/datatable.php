@@ -1,0 +1,3 @@
+<link rel="stylesheet" type="text/css" href="<?=base_url('assets/plugins/jquery-datatable/media/css/dataTables.bootstrap.min.css')?>">
+<link rel="stylesheet" type="text/css" href="<?=base_url('assets/plugins/jquery-datatable/extensions/FixedColumns/css/dataTables.fixedColumns.min.css')?>">
+<link rel="stylesheet" type="text/css" href="<?=base_url('assets/plugins/datatables-responsive/css/datatables.responsive.css')?>"  media="screen">

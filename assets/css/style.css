@@ -1,0 +1,232 @@
+/*
+* Override Pages default styles or create your own styles here
+*/
+.card-margin-top-2{
+    padding-top: 2rem !important;
+}
+
+.breadcrumb{
+    padding: 15px 0 0 0;
+}
+
+/* Cards */
+.card {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-radius: 1px;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    position: relative;
+    margin-bottom: 20px;
+    width: 100%;
+    word-wrap: none;
+}
+
+.card.card-default {
+    border: 1px solid rgba(0, 0, 0, 0.07);
+}
+
+.card.card-transparent .card-body {
+    background: transparent;
+}
+
+.card .card-header + .card-body {
+    padding-top: 0;
+}
+
+.card .card-body {
+    padding: 10px 20px;
+}
+
+.form-control.plaintext[readonly]{
+    background: transparent !important;
+    border:none;
+}
+
+.red{
+    color: red !important;
+}
+
+.black{
+    color: black !important;
+}
+
+label .required:after{
+    color: #ea2c54 !important;
+    content: "*";
+    font-family: arial;
+    font-size: 20px;
+}
+
+a.btn-link{
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.btn-link.cambiar{
+    color: #3395ed;
+}
+
+.tab-pane.active .container-fluid{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.border-1{
+    1px solid rgba(0, 0, 0, 0.07);
+}
+
+.dataTables_wrapper td > .row > div{
+    flex-direction: row !important;
+    justify-content: normal !important;
+}
+
+/* Success Modal*/
+#divSuccess .modal-header.bg-primary, #divAlert .modal-header.bg-danger{
+	align-items:center;
+}
+
+#divAlert .modal-header.bg-danger{
+	background-color: transparent !important;
+}
+
+#divSuccess .modal-header.bg-primary{
+	background-color: #49b770 !important;
+}
+
+#divSuccess .modal-header.bg-primary .fa{
+	color: white;
+    font-size: 5rem;
+}
+
+#divSuccess .modal-title{
+	color: #49b770 !important;
+}
+
+#divAlert .modal-header.bg-danger .fa{
+	color: #ea2c54 !important;
+	font-size: 5rem;
+}
+
+#carpetas.row [class*='col-']:first-child {
+    padding-left: 7px;
+}
+
+#carpetas.row [class*='col-']:last-child {
+    padding-right: 7px;
+}
+
+#carpetas-procesos.row [class*='col-']:first-child, #carpetas-cvp2.row [class*='col-']:first-child {
+    padding-left: 7px;
+}
+
+#carpetas-procesos.row [class*='col-']:last-child, #carpetas-cvp2.row [class*='col-']:last-child {
+    padding-right: 7px;
+}
+
+
+/*.dropzone .dz-default.dz-message{
+    margin-left: -10% !important;
+    margin-top: -30px !important;
+}*/
+
+.social-card.share .card-description .via{
+    opacity: 0.85 !important;
+}
+
+.col-1-5 {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 12.5%;
+    -ms-flex: 0 0 12.5%;
+    flex: 0 0 12.5%;
+    max-width: 12.5%;
+}
+
+.dataTables_empty{
+    text-align: center;
+}
+
+th.rotate {
+    height: 120px;
+    position: relative;
+    min-width: 40px;
+}
+
+th.rotate > div {
+  transform: rotate(90deg);
+  position:absolute;
+  left:0;
+  right:0;
+  top: 25px;
+  margin:auto;
+
+}
+
+@media (min-width: 1824px) {
+    .menu-pin .container-fluid.container-fixed-lg{
+        width: 1580px !important;
+    }
+    .tab-pane.active .container-fluid.container-fixed-lg{
+        width:100% !important;
+        padding: 0;
+    }
+}
+
+/*Print */
+@media screen {
+  #printSection{ display: none; }
+}
+
+@media print {
+  @page { margin: 0; }
+  /*body { margin: 1.6cm; }*/
+  body * {
+    visibility:hidden;
+  }
+  #printSection, #printSection * {
+    visibility:visible;
+  }
+  #printSection {
+    position:absolute;
+    left:0;
+    top:0;
+  }
+
+  .no-print, .no-print *
+  {
+    display: none !important;
+  }
+  .invoice.padding-50{
+      padding: 0;
+  }
+
+  .modal{margin-top:-800px;}
+}
+
+@media (min-width: 600px){
+    .fancybox-custom-layout .fancybox-caption a{
+        color: #fff !important;
+    }
+}
+
+@media (min-width: 992px)
+  .modal .modal-dialog.modal-lg {
+    width: 900px;
+  }
+
+  #myFolderModal .modal-dialog.modal-lg{
+      width: 95% !important;
+      max-width: 95% !important;
+  }
+
+  #myFolderModal .tab-content{
+      padding: 0 !important;
+  }
+
+  #tabArchivos .navbar-collapse{
+      background-color: #f2f4f5;
+  }
+
+}

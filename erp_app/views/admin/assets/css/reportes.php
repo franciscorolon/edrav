@@ -1,0 +1,2 @@
+<link href="<?=base_url('assets/plugins/bootstrap-daterangepicker/daterangepicker-bs3.css')?>" rel="stylesheet" type="text/css" media="screen">
+<link href="https://cdn.datatables.net/buttons/1.7.1/css/buttons.dataTables.min.css" rel="stylesheet" type="text/css" media="screen">
